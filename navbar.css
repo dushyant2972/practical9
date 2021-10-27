@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(255, 236, 126);
+    text-align: center;
+}
+
+.subNavbar{
+    margin: auto;
+    width: 65%;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: rgb(165, 164, 164) 3px 3px 9px 7px;
+    background-color: rgb(78, 255, 78);
+    height: fit-content;
+    position: sticky;
+    top: 60px;
+}
+.subNavbar h4{
+    padding: 5px;
+    margin: 10px;
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: white;
+    font-size: 28px;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.subNavbar h3{
+    padding: 5px;
+    margin: auto;
+    margin-left: 18%;
+    width: 68%;
+    background-color: rgb(37, 36, 36);
+    border: 1px solid black;
+    border-radius: 8px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.subNavbar ul{
+    list-style: none;
+    padding-left: 10px;
+}
+
+.subNavbar ul li a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-family: cursive, sans-serif;
+    font-weight: 600;
+}
+
+.subNavbar ul li{
+    padding: 8px;
+    background-color: rgb(238, 238, 77);
+    margin: 5px 0px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.subNavbar ul li:hover a{
+    text-decoration: underline;
+}
+.subNavbar ul li:hover{
+    background-color: rgb(115, 140, 255);
+    cursor: pointer;
+}
+
+.science, .arts-commerce{
+    width: 30%;
+    margin-left: 5%;
+}
